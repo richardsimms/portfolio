@@ -76,25 +76,42 @@ export default function About() {
         <Section heading="About" headingAlignment="left">
           <div className="flex flex-col gap-6">
             <p>
-              Hi, I&apos;m Brian, born in Honduras and raised in Houston, Texas.
-              I have been coding for {new Date().getFullYear() - 2019} years. As
-              a software engineer, I specialize in full-stack web development
-              and product design.
+              Hi, I&apos;m Richard, a partner, dad, product designer from the UK now living in Melbourne, Australia.
+              I have been designing for {new Date().getFullYear() - 2005} years. I&apos;m  passionate about finding clarity through continuous discovery.
             </p>
             <p>
-              In addition to coding, I create content on my{" "}
+              I&apos;m currently empowering job seekers to make great{" "}
               <Link
                 className="underline"
-                href="https://www.youtube.com/@brianruizy"
+                href="https://www.seek.com.au/career-advice/"
               >
-                YouTube
+                career decisions
               </Link>{" "}
-              channel, covering all things technology, coding vlogs, and
-              personal development.
+              at{" "}
+              <Link
+                className="underline"
+                href="https://www.seek.com.au/"
+              >
+                SEEK
+              </Link>{" "}
+              . Before that, I led the design practice at{" "}
+              <Link
+                className="underline"
+                href="https://www.open.edu.au/"
+              >
+                Open Universities Australia
+              </Link>{" "}
+              , designed native{" "}
+              <Link
+                className="underline"
+                href="https://www.open.edu.au/"
+              >
+                mobile apps
+              </Link>{" "}for Suncorp bank, and led experience design for a leading London creative agency.
             </p>
             <p>
-              When I&apos;m not at my desk, I am probably lifting weights,
-              playing soccer, riding my e-bike, or at a local coffee shop :]
+              When I&apos;m not at my desk, I am probably playing with my kids,
+              riding my bike, or at a local coffee shop :]
             </p>
           </div>
         </Section>

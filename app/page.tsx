@@ -21,16 +21,14 @@ export default function Home() {
       <div className="flex flex-col gap-8">
         <div className="space-y-4">
           <h1 className="animate-in text-3xl font-semibold tracking-tight text-primary">
-            hey, Brian here!
+            Design leadership — Aesthetics to impactful design strategy
           </h1>
           <p
             className="max-w-lg animate-in text-secondary"
             style={{ "--index": 1 } as React.CSSProperties}
           >
-            I am a software engineer who builds for the web with a
-            design-oriented approach. In addition to coding, I make{" "}
-            <Link href="https://youtube.com/@brianruizy">YouTube</Link> videos,
-            where I focus on tech, and productivity.
+            I am Richard Simms, a UK-born designer who has been crafting digital products and experiences since 2005, is now an Australian citizen based in Melbourne and serves as a principal product designer at{" "}
+            <Link href="https://seek.com.au">SEEK</Link>.
           </p>
         </div>
         <div
@@ -38,14 +36,14 @@ export default function Home() {
           style={{ "--index": 2 } as React.CSSProperties}
         >
           <Link
-            href="https://discord.gg/KhNh8nbw3U"
+            href="http://read.cv/rsimms"
             className="flex w-fit items-center rounded-full bg-secondary px-3 py-1 no-underline hover:bg-tertiary"
           >
-            Discord
+            Read CV
             <ArrowUpRightIcon className="h-4 w-4 text-tertiary" />
           </Link>
           <Link
-            href="https://instagram.com/brianruizy"
+            href="https://instagram.com/richardsimms"
             className="flex w-fit items-center rounded-full bg-secondary px-3 py-1 no-underline hover:bg-tertiary"
           >
             IG
@@ -53,7 +51,7 @@ export default function Home() {
           </Link>
           <Link
             className="flex w-fit items-center rounded-full bg-secondary px-3 py-1 no-underline hover:bg-tertiary"
-            href="https://twitter.com/brianruizy"
+            href="https://twitter.com/_rsimms"
           >
             Tweets
             <ArrowUpRightIcon className="h-4 w-4 text-tertiary" />
@@ -82,7 +80,7 @@ export default function Home() {
             <ArrowUpRightIcon className="h-5 w-5 text-tertiary transition-all group-hover:text-primary" />
           </Link>
           <p className="max-w-lg text-tertiary">
-            I occasionally write about programming, productivity, and more.
+            I occasionally write about lessons I've learnt that are worth resharing, productivity, and more.
             Check me out and subscribe to stay up to date.
           </p>
         </div>
