@@ -80,7 +80,7 @@ export default function Home() {
             <ArrowUpRightIcon className="h-5 w-5 text-tertiary transition-all group-hover:text-primary" />
           </Link>
           <p className="max-w-lg text-tertiary">
-            I occasionally write about lessons I've learnt that are worth resharing, productivity, and more.
+            I occasionally write about lessons I&#39;ve learnt that are worth resharing, productivity, and more.
             Check me out and subscribe to stay up to date.
           </p>
         </div>

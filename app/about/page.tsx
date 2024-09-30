@@ -76,11 +76,11 @@ export default function About() {
         <Section heading="About" headingAlignment="left">
           <div className="flex flex-col gap-6">
             <p>
-              Hi, I&apos;m Richard, a partner, dad, product designer from the UK now living in Melbourne, Australia.
-              I have been designing for {new Date().getFullYear() - 2005} years. I&apos;m  passionate about finding clarity through continuous discovery.
+              Hi, I&#39;m Richard, a partner, dad, product designer from the UK now living in Melbourne, Australia.
+              I have been designing for {new Date().getFullYear() - 2005} years. I&#39;m  passionate about finding clarity through continuous discovery.
             </p>
             <p>
-              I&apos;m currently empowering job seekers to make great{" "}
+              I&#39;m currently empowering job seekers to make great{" "}
               <Link
                 className="underline"
                 href="https://www.seek.com.au/career-advice/"
