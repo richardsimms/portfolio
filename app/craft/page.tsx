@@ -5,11 +5,11 @@ import Link from "@/app/components/Link";
 import Section from "@/app/components/Section";
 
 export const metadata: Metadata = {
-  title: "Craft | Brian Ruiz",
+  title: "Craft | Richard Simms",
   description:
     "I write about programming, design, and occasionally life updates!",
   openGraph: {
-    title: "Craft | Brian Ruiz",
+    title: "Craft | Richard Simms",
     description:
       "I write about programming, design, and occasionally life updates!",
     type: "website",

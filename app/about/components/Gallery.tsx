@@ -8,7 +8,7 @@ import localFont from 'next/font/local'
 
 import soccer from "public/gallery/soccer.jpg";
 import me from "public/gallery/portrait.jpg";
-import rona from "public/gallery/harvey.jpeg";
+import rona from "public/gallery/rich-gareth.jpeg";
 import bike from "public/gallery/bike.webp";
 
 import Halo from "@/app/components/Halo";
@@ -142,7 +142,7 @@ export default function Gallery() {
       <section className="flex gap-4 h-[268px] relative">
         <Photo
           src={me}
-          meta="2020-02-12"
+          meta="2012-12-12"
           alt="Richard"
           width={324}
           height={239}
@@ -152,7 +152,7 @@ export default function Gallery() {
         />
         <Photo
           src={bike}
-          meta="2017-07-04"
+          meta="2023-09-11"
           alt="Amy bike ride"
           width={230}
           height={250}
@@ -163,8 +163,8 @@ export default function Gallery() {
         />
          <Photo
           src={rona}
-          meta="2021-05-20"
-          alt="Texas"
+          meta="2024-05-20"
+          alt="Rich and Gareth"
           width={280}
           height={235}
           rotate={-5.4}
@@ -173,8 +173,8 @@ export default function Gallery() {
         />
         <Photo
           src={soccer}
-          meta="2022-09-10"
-          alt={"Snowboarding in Colorado"}
+          meta="circa-1989"
+          alt={"Rich playing soccer"}
           width={220}
           height={260}
           rotate={7.6}

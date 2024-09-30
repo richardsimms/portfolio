@@ -12,13 +12,13 @@ import perishipLogo from "public/work/periship-logo.jpeg";
 import camsLogo from "public/work/cams-logo.png";
 import uhdLogo from "public/work/uhd.png";
 
-import meLily from "public/gallery/me-lily.jpg";
-import colorado from "public/gallery/colorado.jpg";
+import meLily from "public/gallery/portrait.jpg";
+import colorado from "public/gallery/rich-gareth.jpeg";
 
 export const metadata: Metadata = {
-  title: "About | Brian Ruiz",
+  title: "About | Richard Simms",
   description:
-    "Houston-based Software Engineer and a Content Creator, sharing insights on well-designed products and technology advancements.",
+    "A UK-born designer who has been crafting digital products and experiences since 2005, is now an Australian citizen based in Melbourne and serves as a principal product designer at SEEK",
 };
 
 export default function About() {
@@ -161,30 +161,30 @@ export default function About() {
 
 const workplaces = [
   {
-    title: "Full Stack Engineer",
-    company: "Hines",
-    date: "2022 -",
+    title: "Principal Product Desinger",
+    company: "SEEK",
+    date: "2021 -",
     imageSrc: hinesLogo,
     link: "https://hines.com",
   },
   {
-    title: "Software Engineer",
-    company: "PeriShip",
-    date: "2021 - 2022",
+    title: "Lead Experience Designer",
+    company: "Open Universities Australia",
+    date: "2019 - 2021",
     imageSrc: perishipLogo,
     link: "https://peripharma.com/",
   },
   {
-    title: "Python Developer",
-    company: "CAMS",
-    date: "2019 - 2020",
+    title: "Lead Experience Designer",
+    company: "Outware Mobile﻿",
+    date: "2017 - 2019",
     imageSrc: camsLogo,
     link: "https://camstex.com",
   },
   {
-    title: "Coding Camp Instructor",
-    company: "University of Houston",
-    date: "2019",
+    title: "Senior Experience Designer",
+    company: "SapientRazorfish",
+    date: "2015 - 2017",
     imageSrc: uhdLogo,
     link: "https://www.uhd.edu/",
   },

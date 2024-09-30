@@ -44,10 +44,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const metadata: Metadata = {
     metadataBase: new URL("https://b-r.io"),
-    title: `${title} | Brian Ruiz`,
+    title: `${title} | Richard Simms`,
     description,
     openGraph: {
-      title: `${title} | Brian Ruiz`,
+      title: `${title} | Richard Simms`,
       description,
       type: "article",
       publishedTime,
@@ -79,7 +79,7 @@ export default async function Blog({ params }: { params: any }) {
           <div className="flex max-w-none items-center gap-4">
             <Avatar src={Me} initials="br" size="sm" />
             <div className="leading-tight">
-              <p>Brian Ruiz</p>
+              <p>Richard Simms</p>
               <p className="text-secondary">
                 <time dateTime={blog.date}>{formatDate(blog.date)}</time>
                 {blog.updatedAt

@@ -12,10 +12,10 @@ import Macrofactor from "public/gear/macrofactor.webp";
 import Raycast from "public/gear/raycast.png";
 
 export const metadata: Metadata = {
-  title: "Gear | Brian Ruiz",
+  title: "Gear | Richard Simms",
   description: "My toolbox. This is gear I actually own and recommend.",
   openGraph: {
-    title: "Gear | Brian Ruiz",
+    title: "Gear | Richard Simms",
     description: "My toolbox. This is gear I actually own and recommend.",
     type: "website",
     url: "https://b-r.io/blog/gear",

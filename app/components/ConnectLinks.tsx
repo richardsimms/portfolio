@@ -16,7 +16,7 @@ interface ConnectLink {
 const ConnectLinks: ConnectLink[] = [
   // {
   //   label: "Email",
-  //   href: "mailto:contact@b-r.io",
+  //   href: "mailto:richard@rsimms.com",
   //   icon: (
   //     <svg
   //       xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ const ConnectLinks: ConnectLink[] = [
   // },
   {
     label: "Partnerships",
-    href: "mailto:partners@b-r.io",
+    href: "mailto:richard@rsimms.com",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -45,21 +45,22 @@ const ConnectLinks: ConnectLink[] = [
     ),
   },
   {
-    label: "YouTube",
-    href: "https://www.youtube.com/@brianruizy",
-    icon: <FaYoutube />,
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/richardsimms/",
+    icon: <FaLinkedin />,
   },
+
   {
     label: "Instagram",
-    href: "https://www.instagram.com/brianruizy/",
+    href: "https://www.instagram.com/richardsimms/",
     icon: <FaInstagram />,
   },
   {
     label: "Twitter",
-    href: "https://twitter.com/brianruizy",
+    href: "https://twitter.com/_rsimms",
     icon: <FaXTwitter />,
   },
-  {
+  /* {
     label: "Discord",
     href: "https://discord.gg/KhNh8nbw3U",
     icon: <FaDiscord />,
@@ -68,12 +69,7 @@ const ConnectLinks: ConnectLink[] = [
     label: "GitHub",
     href: "https://github.com/brianruizy",
     icon: <FaGithub />,
-  },
-  {
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/in/brianruizy/",
-    icon: <FaLinkedin />,
-  },
+  }, */
 ];
 
 export default ConnectLinks;
