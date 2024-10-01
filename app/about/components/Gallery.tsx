@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import clsx from "clsx";
 import localFont from 'next/font/local'
 
-import soccer from "public/gallery/soccer.jpg";
+import soccer from "public/gallery/hack2.png";
 import me from "public/gallery/portrait.jpg";
 import rona from "public/gallery/rich-gareth.jpeg";
 import bike from "public/gallery/bike.webp";

@@ -27,8 +27,8 @@ export default function Home() {
             className="max-w-lg animate-in text-secondary"
             style={{ "--index": 1 } as React.CSSProperties}
           >
-            I am Richard Simms, a UK-born designer who has been crafting digital products and experiences since 2005, is now an Australian citizen based in Melbourne and serves as a principal product designer at{" "}
-            <Link href="https://seek.com.au">SEEK</Link>.
+            Hello, I&#39;m Richard Simms—a UK-born, Melbourne-based Principal Product Designer at{" "}
+            <Link className="underline font-bold" href="https://seek.com.au">SEEK</Link>. Since 2005, I&#39;ve been crafting digital products and experiences, transforming aesthetics into impactful design strategies.
           </p>
         </div>
         <div
@@ -80,8 +80,8 @@ export default function Home() {
             <ArrowUpRightIcon className="h-5 w-5 text-tertiary transition-all group-hover:text-primary" />
           </Link>
           <p className="max-w-lg text-tertiary">
-            I occasionally write about lessons I&#39;ve learnt that are worth resharing, productivity, and more.
-            Check me out and subscribe to stay up to date.
+          Dive into my latest articles where I share insights on design leadership, productivity hacks, and valuable lessons from my journey in the digital product space. 
+          Subscribe to stay updated with my newest posts.
           </p>
         </div>
         <PostList posts={blogs} />

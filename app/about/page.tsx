@@ -12,8 +12,8 @@ import perishipLogo from "public/work/periship-logo.jpeg";
 import camsLogo from "public/work/cams-logo.png";
 import uhdLogo from "public/work/uhd.png";
 
-import meLily from "public/gallery/portrait.jpg";
-import colorado from "public/gallery/rich-gareth.jpeg";
+import colorado from "public/gallery/portrait.jpg";
+import meLily from "public/gallery/rich-gareth.jpeg";
 
 export const metadata: Metadata = {
   title: "About | Richard Simms",
@@ -45,7 +45,7 @@ export default function About() {
             alt={"me and lily"}
             width={324}
             height={139}
-            className="pointer-events-none relative inset-0 h-60 -rotate-6 rounded-xl bg-gray-400 object-cover shadow-md"
+            className="pointer-events-none relative inset-0 h-50 -rotate-6 rounded-xl bg-gray-400 object-cover shadow-md"
             priority
 
           />
@@ -60,7 +60,7 @@ export default function About() {
             alt={"me and lily"}
             width={220}
             height={260}
-            className="pointer-events-none absolute inset-0 -top-48 left-[45%] w-48 rotate-6 rounded-xl bg-gray-400 object-cover shadow-md md:left-[60%] md:w-56"
+            className="pointer-events-none absolute inset-0 -top-48 left-[55%] w-48 rotate-6 rounded-xl bg-gray-400 object-cover shadow-md md:left-[60%] md:w-56"
             priority
 
           />
@@ -76,42 +76,40 @@ export default function About() {
         <Section heading="About" headingAlignment="left">
           <div className="flex flex-col gap-6">
             <p>
-              Hi, I&#39;m Richard, a partner, dad, product designer from the UK now living in Melbourne, Australia.
-              I have been designing for {new Date().getFullYear() - 2005} years. I&#39;m  passionate about finding clarity through continuous discovery.
+            Hello, I&#39;m Richard Simms—a Melbourne-based Principal Product Designer with  {new Date().getFullYear() - 2005} years of experience crafting impactful digital products and experiences. Originally from the UK, I am passionate about finding clarity through continuous discovery.
             </p>
             <p>
-              I&#39;m currently empowering job seekers to make great{" "}
+              Currently, I&#39;m empowering job seekers to make great{" "}
               <Link
-                className="underline"
+                className="underline font-bold"
                 href="https://www.seek.com.au/career-advice/"
               >
                 career decisions
               </Link>{" "}
               at{" "}
               <Link
-                className="underline"
+                className="underline font-bold"
                 href="https://www.seek.com.au/"
               >
                 SEEK
               </Link>{" "}
               . Before that, I led the design practice at{" "}
               <Link
-                className="underline"
+                className="underline font-bold"
                 href="https://www.open.edu.au/"
               >
                 Open Universities Australia
               </Link>{" "}
-              , designed native{" "}
+              , designed native mobile apps for {" "}
               <Link
-                className="underline"
+                className="underline font-bold"
                 href="https://www.open.edu.au/"
               >
-                mobile apps
-              </Link>{" "}for Suncorp bank, and led experience design for a leading London creative agency.
+                Suncorp Bank
+              </Link>{" "}, and headed experience design at a leading London creative agency.
             </p>
             <p>
-              When I&apos;m not at my desk, I am probably playing with my kids,
-              riding my bike, or at a local coffee shop :]
+              When I&apos;m not designing, you’ll find me spending time with my family, cycling around Melbourne, or enjoying a coffee at a local café.
             </p>
           </div>
         </Section>
