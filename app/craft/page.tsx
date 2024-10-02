@@ -7,11 +7,11 @@ import Section from "@/app/components/Section";
 export const metadata: Metadata = {
   title: "Craft | Richard Simms",
   description:
-    "I write about programming, design, and occasionally life updates!",
+    "I write about insights on design leadership, productivity hacks, and valuable lessons from my journey in the digital product space.",
   openGraph: {
     title: "Craft | Richard Simms",
     description:
-      "I write about programming, design, and occasionally life updates!",
+      "I write about insights on design leadership, productivity hacks, and valuable lessons from my journey in the digital product space.",
     type: "website",
     url: "https://b-r.io/craft/",
     images: [{ url: "https://b-r.io/api/og?title=Craft", alt: "Craft" }],

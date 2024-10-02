@@ -4,7 +4,7 @@ export async function GET() {
   }
 
   try {
-    const channelId = "UCxO_iz6thp2DsuSjd7JcElQ"; // Brian Ruiz's channel ID
+    const channelId = "UCxO_iz6thp2DsuSjd7JcElQ"; // Richard's channel ID
     const apiKey = process.env.YOUTUBE_API_KEY;
 
     // Get channel statistics

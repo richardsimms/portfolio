@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://rsimms.com"),
   title: "Richard Simms",
   description:
-    "A UK-born designer who has been crafting digital products and experiences since 2005, is now an Australian citizen based in Melbourne and serves as a principal product designer at SEEK",
+    "Richard Simms is a Principal Product Designer in Melbourne with over 15 years of experience in crafting impactful digital products and strategies.",
   openGraph: {
     title: "Richard Simms",
     url: "https://b-r.io/",

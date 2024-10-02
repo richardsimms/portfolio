@@ -22,7 +22,7 @@ export default function Links() {
           >
             <h1 className="text-2xl font-bold tracking-tight">Richard Simms</h1>
             <p className="mx-auto max-w-sm text-secondary">
-              Software engineer and content creator. Here are my socials, and
+            Principal Product Designer Crafting Impactful Digital Experiences. Here are my socials, and
               ways to connect with me.
             </p>
           </div>
