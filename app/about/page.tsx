@@ -10,7 +10,7 @@ import Gallery from "@/app/about/components/Gallery";
 import seekLogo from "public/work/seek.svg";
 import ouaLogo from "public/work/oua.svg";
 import arqLogo from "public/work/arq.svg";
-import sapientLogo from "public/work/Sapient.svg";
+import sapientLogo from "public/work/sapient.svg";
 
 import portrait from "public/gallery/portrait.jpg";
 import meGareth from "public/gallery/rich-gareth.jpeg";
