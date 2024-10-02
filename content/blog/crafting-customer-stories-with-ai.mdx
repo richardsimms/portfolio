@@ -1,0 +1,123 @@
+---
+title: "Crafting Customer Stories with ChatGPT, MidJourney, and Figma"
+date: "2023-08-07"
+summary: "Uncover the secret to using AI for storytelling. Learn how to use tools like ChatGPT, MidJourney, and Figma to create a comic-style customer journey."
+tags: ["Product Design"]
+---
+
+I recently explored a way to use AI to craft a visually compelling customer journey. I wanted to tell a story, my product team had discovered through qualitative research, placing the customer is the hero.   
+
+My goal was to create a story to resonate with my peers and leaders, allowing them to empathise with the customer's struggles, desired transformation and how our product could help guide them there. The research essentially markets an abstract concept of how we can positively impact a business outcome and why our leaders should trust us.
+
+## Creating the Customer Journey using ChatGPT, MidJourney, and Figma
+A recurring narrative emerged as we conducted one-on-one interviews of our target demographic: career changers who use [SEEK](seek.com.au "SEEK ") products. Their stories aligned with our previous JTBD and quantitative research. However, their stories, needs, and desires were far richer in our interviews. 
+
+After we had spoken to several people, it became clear there was a pattern that we could synthesise into a narrative. 
+
+## ChatGPT
+I prompted ChatGPT with our summary of the narrative in bullet points and asked it to turn it into a hero’s story. 
+
+`Write a hero story that guides the career changer through the journey of career discovery:
+`
+```Markdown
+Write a hero story that guides the career changer through the journey of career discovery: 
+0. working away in their current role 
+1. People become dissatisfied for any number of reasons: - don't like their boss - Have hit a salary ceiling - No longer feel challenged - want to have a greater impact - Got into the role for the wrong reasons 
+2. Typically they begin by exploring passively, open to new options, a bit more interested in the careers of friends and family, maybe even cathartically browsing SEEK after a bad day at work 
+3. Without support this might carry on for some time, if they do get serious about a change, it's on them to invest the effort to start actively exploring roles 
+4. Instead they find Career Discovery 
+5. We guide them through introspection, and expose them to new options, keeping things low-effort, no commitment and playful as they explore their own interest in a change 
+6. Once they decide on a direction we offer advice and support to - explore the new direction - validate the new career is right for them - and take action to pursue it if it is 
+7. All the way through to enquiring about a course or building up enough skills and confidence to get the job
+```
+
+ChatGPT returned a good start for the story, there were a few parts that I changed to align better with our research and context. Overall, this story tells a journey that is partly based on evidence and GPT filled in the gaps. I could then turn this into a hero story, storyboard by asking the following:
+
+`Please turn the above into a max 9 panel storyboard for the Problem / solution / Benefit`
+
+```html
+Panel 1 (Problem):
+[Image: Jordan, sitting at a desk with a computer, looking frustrated and dissatisfied]
+Caption: "Meet Jordan, a software engineer feeling unfulfilled and dissatisfied with work."
+Panel 2 (Problem):
+[Image: Jordan talking to friends and family, expressions showing interest]
+Caption: "Jordan starts exploring other careers, inspired by friends and family."
+Panel 3 (Problem):
+[Image: Jordan browsing through SEEK with a thoughtful look]
+Caption: "Yet, the path to a career change seems daunting without guidance."
+Panel 4 (Solution):
+[Image: Jordan discovering the Career Discovery platform on a laptop]
+Caption: "Enter Career Discovery, a beacon of hope for career-changers."
+Panel 5 (Solution):
+[Image: Jordan engaging with playful introspection tools on Career Discovery]
+Caption: "The platform makes career exploration fun and insightful."
+Panel 6 (Solution):
+[Image: Jordan's eyes light up while reading about educational psychology]
+Caption: "Jordan uncovers a latent interest in educational psychology."
+Panel 7 (Benefit):
+[Image: Jordan networking with professionals in educational psychology]
+Caption: "Career Discovery provides advice, resources, and networking opportunities."
+Panel 8 (Benefit):
+[Image: Jordan volunteering at an educational institution]
+Caption: "Jordan validates the choice through real-life experiences."
+Panel 9 (Benefit):
+[Image: Jordan, happily enrolling in an educational psychology course]
+Caption: "With confidence and validation, Jordan embarks on the new career journey."
+```
+
+
+
+## MidJourney
+[MidJourney](http://midjourney.com/) is accessed through [Discord](https://discord.com/) and is free to signup. I created my own Discord Channel and invited MidJourney bot to it for a bit less noise. 
+
+I first attempted to create the storyboards in the style of Joseph Barbera. His style is iconic, but asking ChatGPT to recreate my image prompts in style was maybe too broad. I wanted something more artistic than realistic, however, for a photo realistic style ChatGPT4 has a [Photorealistic plugin](https://gptstore.ai/plugins/midjourney-ruddy-vercel-app) that creates prompts for [stunning photos](https://www.instagram.com/richardsimms/) in the style of [**inset your favourite photographer here**]. 
+
+I crafted a consistent character named Jordan, the hero of my story, using prompts for [reusable character](https://myairevolution.com/tutorial-how-to-create-consistent-characters-in-midjourney/) creation, and used it as the base for my prompts:
+[**Style**], [**Shot type**], [**subject**]
+
+`storyboard illustration full body shot of a 30yo african-american female`
+
+
+<Image
+  src="/blog/crafting-customer-stories-with-ai/charactor-prompt.jpg"
+  alt="charactor Prompt"
+  width={1000}
+  height={600}
+/>
+
+I then used this image as the base of my prompts and repeated the character prompt, plus the panel output that ChatGPT gave me:
+[**img url**], [**Character prompt**], [**Image output from GPT**], [**aspect ratio**]
+
+```
+https://s.mj.run/zDnNRukV1hY storyboard illusttion full body shot of a 30yo african-american female, sitting at a desk with a computer, looking frustrated and dissatisfied --ar 16:9
+```
+
+<Image
+  src="/blog/crafting-customer-stories-with-ai/rsimms_storyboard_illustraion_of_a_30yo_african-american_femal_7ae99f76-c85b-4d98-97d7-3274330799f8.jpg"
+  alt="career discovery"
+  width={1000}
+  height={600}
+/>
+
+I repeated this format for subsequent panels, selecting the best images for the story. MidJourney v5.1 has the ability to reframe the shots, which was useful for when heads were cut off.
+
+<Image
+  src="/blog/crafting-customer-stories-with-ai/career-discovery.jpg"
+  alt="career discovery"
+  width={1000}
+  height={600}
+/>
+
+## Figma
+I used the [Comics in Figma](https://www.figma.com/community/file/1074773789352934150) community file to layout my images and add GPT-created captions.
+
+<Image
+  src="/blog/crafting-customer-stories-with-ai/comics.jpg"
+  alt="Comics in figma"
+  width={1000}
+  height={600}
+/>
+
+
+## Conclusion
+The art of storytelling is at the core of design. If you're explaining your research findings or creating a customer journey, the ability to communicate complex ideas in engaging ways is essential. By integrating AI tools like ChatGPT and MidJourney, you can craft visuals that compliment and sell your research. 

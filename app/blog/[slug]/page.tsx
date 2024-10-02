@@ -39,11 +39,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   } = blog;
 
   const ogImage = image
-    ? `https://b-r.io/${image}`
-    : `https://b-r.io/api/og?title=${title}`;
+    ? `https://rsimms.com/${image}`
+    : `https://rsimms.com/api/og?title=${title}`;
 
   const metadata: Metadata = {
-    metadataBase: new URL("https://b-r.io"),
+    metadataBase: new URL("https://rsimms.com"),
     title: `${title} | Richard Simms`,
     description,
     openGraph: {
@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       type: "article",
       publishedTime,
-      url: `https://b-r.io/blog/${slug}`,
+      url: `https://rsimms.com/blog/${slug}`,
       images: [{ url: ogImage, alt: title }],
     },
   };
@@ -119,11 +119,11 @@ export default async function Blog({ params }: { params: any }) {
         <div className="flex flex-col gap-6">
           <h2>Contact</h2>
           <p className="max-w-md text-pretty text-secondary">
-            Questions or need more details? Ping me on {" "}
-            <Link href="/discord" underline>
-              Discord,
+            Questions or need more details? Ping me via{" "}
+            <Link href="mailto:richard@rsimms.com" underline>
+              email
             </Link>{" "}
-            or any of my other social media <Link href="/links" underline>links</Link>.
+            , or any of my other social media <Link href="/links" underline>links</Link>.
           </p>
         </div>
         <NewsletterSignupForm contained={false} />

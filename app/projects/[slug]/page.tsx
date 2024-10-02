@@ -51,11 +51,11 @@ export default function Project({ params }: { params: any }) {
         <div className="flex flex-col gap-6">
           <h2>Contact</h2>
           <p className="max-w-md text-pretty text-secondary">
-            Questions or need more details? Ping me on{" "}
-            <Link href="/discord" underline>
-              Discord,
+            Questions or need more details? Ping me via{" "}
+            <Link href="mailto:richard@rsimms.com" underline>
+              email
             </Link>{" "}
-            or any of my other social media{" "}
+            , or any of my other social media{" "}
             <Link href="/links" underline>
               links
             </Link>

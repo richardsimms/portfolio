@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 // get youtube subs count from route handler api/youtube
 async function getData() {
   const res = await fetch(
-    `https://b-r.io/api/youtube`,
+    `https://rsimms.com/api/youtube`,
     {
       next: {
         revalidate: 86400, // 24 hours

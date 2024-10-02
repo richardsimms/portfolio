@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     title: "Gear | Richard Simms",
     description: "My toolbox. This is gear I actually own and recommend.",
     type: "website",
-    url: "https://b-r.io/blog/gear",
-    images: [{ url: "https://b-r.io/api/og?title=Gear", alt: "gear" }],
+    url: "https://rsimms.com/blog/gear",
+    images: [{ url: "https://rsimms.com/api/og?title=Gear", alt: "gear" }],
   },
 };
 

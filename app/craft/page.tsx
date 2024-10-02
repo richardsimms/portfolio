@@ -13,8 +13,8 @@ export const metadata: Metadata = {
     description:
       "I write about insights on design leadership, productivity hacks, and valuable lessons from my journey in the digital product space.",
     type: "website",
-    url: "https://b-r.io/craft/",
-    images: [{ url: "https://b-r.io/api/og?title=Craft", alt: "Craft" }],
+    url: "https://rsimms.com/craft/",
+    images: [{ url: "https://rsimms.com/api/og?title=Craft", alt: "Craft" }],
   },
 };
 

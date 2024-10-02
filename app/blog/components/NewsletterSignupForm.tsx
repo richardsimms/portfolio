@@ -85,7 +85,7 @@ export default function NewsletterSignupForm({
     <Card contained={contained}>
       <p className="text-primary">Newsletter</p>
       <p className="max-w-md text-secondary">
-        Get personal updates and readings on topics like tech, design,
+        Get personal updates and readings on topics like product, design,
         productivity, programming, and more!
       </p>
       <form className="mt-2 w-full max-w-md " onSubmit={onSubmit}>

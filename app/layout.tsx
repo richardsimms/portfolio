@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     "Richard Simms is a Principal Product Designer in Melbourne with over 15 years of experience in crafting impactful digital products and strategies.",
   openGraph: {
     title: "Richard Simms",
-    url: "https://b-r.io/",
-    images: [{ url: "https://b-r.io/api/og?title=B-R.io", alt: "b-r.io" }],
+    url: "https://rsimms.com/",
+    images: [{ url: "https://rsimms.com/api/og?title=rsimms.com", alt: "rsimms.com" }],
   },
 };
 

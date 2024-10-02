@@ -7,13 +7,13 @@ import ConnectLinks from "@/app/components/ConnectLinks";
 import Workplaces from "@/app/about/components/Workplaces";
 import Gallery from "@/app/about/components/Gallery";
 
-import hinesLogo from "public/work/hines-logo.jpeg";
-import perishipLogo from "public/work/periship-logo.jpeg";
-import camsLogo from "public/work/cams-logo.png";
-import uhdLogo from "public/work/uhd.png";
+import seekLogo from "public/work/seek.svg";
+import ouaLogo from "public/work/oua.svg";
+import arqLogo from "public/work/arq.svg";
+import sapientLogo from "public/work/Sapient.svg";
 
-import colorado from "public/gallery/portrait.jpg";
-import meLily from "public/gallery/rich-gareth.jpeg";
+import portrait from "public/gallery/portrait.jpg";
+import meGareth from "public/gallery/rich-gareth.jpeg";
 
 export const metadata: Metadata = {
   title: "About | Richard Simms",
@@ -41,8 +41,8 @@ export default function About() {
           style={{ "--index": 1 } as React.CSSProperties}
         >
           <Image
-            src={meLily}
-            alt={"me and lily"}
+            src={meGareth}
+            alt={"me and Gareth"}
             width={324}
             height={139}
             className="pointer-events-none relative inset-0 h-50 -rotate-6 rounded-xl bg-gray-400 object-cover shadow-md"
@@ -56,8 +56,8 @@ export default function About() {
           style={{ "--index": 2 } as React.CSSProperties}
         >
           <Image
-            src={colorado}
-            alt={"me and lily"}
+            src={portrait}
+            alt={"me"}
             width={220}
             height={260}
             className="pointer-events-none absolute inset-0 -top-48 left-[45%] w-48 rotate-6 rounded-xl bg-gray-400 object-cover shadow-md md:left-[60%] md:w-56"
@@ -109,7 +109,7 @@ export default function About() {
               </Link>{" "}, and headed experience design at a leading London creative agency.
             </p>
             <p>
-              When I&apos;m not designing, you’ll find me spending time with my family, cycling around Melbourne, or enjoying a coffee at a local café.
+              When I&#39;m not designing, you&#39;ll find me spending time with my family, cycling around Melbourne, or enjoying a coffee at a local café.
             </p>
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -157,9 +157,7 @@ export default function About() {
         <Section heading="Work" headingAlignment="left">
           <div className="flex w-full flex-col gap-8">
             <p>
-              I specialize in Python, data analytics, React, web development,
-              UI/UX, and product design. But I am always learning new things.
-              Here are some of the places I have worked.
+            I specialise in product design, UX/UI, digital experiences, and design leadership. Passionate about finding clarity through continuous discovery, I&#39;m always learning new things. Here are some of the places I&#39;ve worked.
             </p>
             <Workplaces items={workplaces} />
           </div>
@@ -174,28 +172,28 @@ const workplaces = [
     title: "Principal Product Desinger",
     company: "SEEK",
     date: "2021 -",
-    imageSrc: hinesLogo,
-    link: "https://hines.com",
+    imageSrc: seekLogo,
+    link: "https://seek.com.au",
   },
   {
     title: "Lead Experience Designer",
     company: "Open Universities Australia",
     date: "2019 - 2021",
-    imageSrc: perishipLogo,
-    link: "https://peripharma.com/",
+    imageSrc: ouaLogo,
+    link: "https://www.open.edu.au",
   },
   {
     title: "Lead Experience Designer",
     company: "Outware Mobile﻿",
     date: "2017 - 2019",
-    imageSrc: camsLogo,
-    link: "https://camstex.com",
+    imageSrc: arqLogo,
+    link: "https://x.com/outware",
   },
   {
     title: "Senior Experience Designer",
     company: "SapientRazorfish",
     date: "2015 - 2017",
-    imageSrc: uhdLogo,
-    link: "https://www.uhd.edu/",
+    imageSrc: sapientLogo,
+    link: "https://www.publicissapient.com",
   },
 ];

@@ -12,8 +12,8 @@ export const metadata: Metadata = {
     description:
       "I share insights on design leadership, productivity hacks, and valuable lessons from my journey in the digital product space.",
     type: "website",
-    url: "https://b-r.io/blog/Blog",
-    images: [{ url: "https://b-r.io/api/og?title=Blog", alt: "Blog" }],
+    url: "https://rsimms.com/blog/Blog",
+    images: [{ url: "https://rsimms.com/api/og?title=Blog", alt: "Blog" }],
   },
 };
 
