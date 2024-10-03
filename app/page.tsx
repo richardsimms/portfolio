@@ -12,9 +12,9 @@ export default function Home() {
     // 3 most recent
     .filter((_, i) => i < 3);
 
-  const projects = allProjects.sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
-  );
+  const projects = allProjects
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .filter((_, i) => i < 8);
 
   return (
     <div className="flex flex-col gap-16 md:gap-24">

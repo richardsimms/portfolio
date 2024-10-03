@@ -169,7 +169,7 @@ export default function About() {
 
 const workplaces = [
   {
-    title: "Principal Product Desinger",
+    title: "Principal Product Designer",
     company: "SEEK",
     date: "2021 -",
     imageSrc: seekLogo,
