@@ -61,7 +61,7 @@ const Item = ({ title, description, image, link, sponsored }: ItemProps) => (
   </li>
 );
 
-export default function () {
+export default function ResumeInsights() {
   
 
   return (
@@ -145,7 +145,7 @@ export default function () {
             className="animate-in text-secondary"
             style={{ "--index": 9 } as React.CSSProperties}
             >
-            Type _/quiestion_ for a set of personalised questions 
+            Type &quot;/question&quot; for a set of personalised questions 
           </li>
           </ul>
           <p
@@ -171,4 +171,3 @@ export default function () {
     </>
   );
 }
-

@@ -61,7 +61,7 @@ const Item = ({ title, description, image, link, sponsored }: ItemProps) => (
   </li>
 );
 
-export default function () {
+export default function UxMba() {
   
 
   return (
@@ -76,7 +76,7 @@ export default function () {
               className="animate-in text-secondary"
               style={{ "--index": 1 } as React.CSSProperties}
             >
-              Something has shifted in the design world.We've moved into an era where design isn't just about aesthetics; it's about leading change, driving innovation, and shaping business strategies. Yet, many designers find themselves stuck in the old narrative, valued for their creative output but seldom for their strategic input. They remain confined in a silo, far removed from where critical business decisions are made.
+              Something has shifted in the design world. We&#39;ve moved into an era where design isn&#39;t just about aesthetics; it&#39;s about leading change, driving innovation, and shaping business strategies. Yet, many designers find themselves stuck in the old narrative, valued for their creative output but seldom for their strategic input. They remain confined in a silo, far removed from where critical business decisions are made.
             </p>
           </div>
           <p
@@ -89,7 +89,7 @@ export default function () {
           className="max-w-lg animate-in text-secondary"
           style={{ "--index": 3 } as React.CSSProperties}
           >
-          My approach is about redefining the role of the product designer. It's time to break free from the sidelines and step into the spotlight of leadership and strategic influence. No more being the last to know and the first to be called upon for a quick fix. It's about being part of the conversation from the get-go, where design is integral, not incidental, to business success.
+          My approach is about redefining the role of the product designer. It&#39;s time to break free from the sidelines and step into the spotlight of leadership and strategic influence. No more being the last to know and the first to be called upon for a quick fix. It&#39;s about being part of the conversation from the get-go, where design is integral, not incidental, to business success.
           </p>
           <h4
             className="animate-in text-xl text-secondary max-w-lg"
@@ -101,25 +101,25 @@ export default function () {
            className="animate-in text-secondary max-w-lg"
            style={{ "--index": 5 } as React.CSSProperties}
            >
-          The UX MBA, a transformative journey for designers who aren't content being mere executors but aspire to be visionaries and leaders.
+          The UX MBA, a transformative journey for designers who aren&#39;t content being mere executors but aspire to be visionaries and leaders.
           </p>
           <p
            className="animate-in text-secondary max-w-lg"
            style={{ "--index": 6 } as React.CSSProperties}
            >
-          With over 17 years of diverse experience, I guide you in weaving design into the fabric of business strategy, ensuring your voice isn't just heard, but sought after.
+          With over 17 years of diverse experience, I guide you in weaving design into the fabric of business strategy, ensuring your voice isn&#39;t just heard, but sought after.
         </p>
           <p
            className="animate-in text-secondary max-w-lg"
            style={{ "--index": 7 } as React.CSSProperties}
            >
-            Together, we're not just changing how design is perceived; we're reshaping the business landscape where design leads, not follows. We're building a community where continuous discovery, empathetic leadership, and strategic thinking are the norm.
+            Together, we&#39;re not just changing how design is perceived; we&#39;re reshaping the business landscape where design leads, not follows. We&#39;re building a community where continuous discovery, empathetic leadership, and strategic thinking are the norm.
           </p>
           <p
            className="animate-in text-secondary max-w-lg"
            style={{ "--index": 8 } as React.CSSProperties}
            >
-          Welcome to a new era of design leadership. This isn't just about making things look good; it's about making things happen. For good. For all. For the future of design in business.
+          Welcome to a new era of design leadership. This isn&#39;t just about making things look good; it&#39;s about making things happen. For good. For all. For the future of design in business.
           </p>
           <p
            className="animate-in text-secondary max-w-lg"
@@ -146,4 +146,3 @@ export default function () {
     </>
   );
 }
-
