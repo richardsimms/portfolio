@@ -89,7 +89,7 @@ export default function ResumeInsights() {
           className="max-w-lg animate-in text-secondary"
           style={{ "--index": 3 } as React.CSSProperties}
           >
-          Resume Insights: This tool goes beyond just highlighting a candidate's strengths and weaknesses. It intelligently crafts custom interview questions for each applicant, tailored to their resume and your job description.
+          Resume Insights: This tool goes beyond just highlighting a candidate&#39;s strengths and weaknesses. It intelligently crafts custom interview questions for each applicant, tailored to their resume and your job description.
           </p>
           <ul
             className="list-disc list-outside max-w-lg"
@@ -123,7 +123,7 @@ export default function ResumeInsights() {
            className="animate-in text-secondary max-w-lg"
            style={{ "--index": 8 } as React.CSSProperties}
            >
-          Don't let top talent slip through the cracks anymore. Embrace our Smart Interviewer to enrich your hiring process. With this tool, your time is spent engaging with the right candidates, leading to more informed decisions and a stronger team.
+          Don&#39;t let top talent slip through the cracks anymore. Embrace our Smart Interviewer to enrich your hiring process. With this tool, your time is spent engaging with the right candidates, leading to more informed decisions and a stronger team.
           </p>
           <ul
             className="list-disc list-outside max-w-lg"
