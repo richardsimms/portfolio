@@ -7,8 +7,8 @@ const SeriesCollapsible = () => {
     <Collapsible.Root className="my-4 flex flex-col divide-y divide-secondary overflow-clip rounded-md border border-secondary">
       <Collapsible.Trigger className="group flex items-center justify-between gap-3 bg-primary p-4">
         <p className="m-0 text-left font-medium leading-tight text-primary">
-          Building an Awesome Developer Blog with Next.js
-          <span className="pl-2 font-normal text-tertiary">∙ 3 of 5</span>
+          Creating an AI visual naritive with MidJourney and Figma.
+          <span className="pl-2 font-normal text-tertiary">∙ 1 of 2</span>
         </p>
         <div className="h-fit rounded p-1 transition-all group-hover:bg-secondary">
           {/* prettier-ignore */}
@@ -19,40 +19,17 @@ const SeriesCollapsible = () => {
       </Collapsible.Trigger>
       <Collapsible.Content className="bg-primary px-4">
         <p className="text-balance text-sm leading-normal text-tertiary">
-          This is a multi-part series on building a blog with the latest
-          features of Next.js. The focus is on creating a sleek, intuitive, and
-          elegant user interface.
+          This is a multi-part series on creating storyboards with Midjourney. The focus is on creating compelling naritive, with a reusable charactor, and Figma multi planel layout.
         </p>
         <ul className="animated-list -ml-2 list-outside list-disc space-y-2">
           <li className="transition-opacity">
-            <Link href="/blog" className="font-normal">
-              My Blog Stack, and Why I Chose It.
+            <Link href="/blog/reusable-ai-character" className="font-normal">
+            Creating a reusable AI character for strategic storytelling in design
             </Link>
           </li>
           <li className="transition-opacity">
-            <Link
-              href="/blog"
-              className="font-normal text-secondary no-underline"
-            >
-              ISR + MDX Blog Posts with Next.js
-            </Link>
-          </li>
-          <li className="transition-opacity">
-            <Link
-              href="/blog"
-              className="font-normal text-secondary no-underline"
-            >
-              Beautiful Interactive Maps with MapBox GL
-            </Link>
-          </li>
-          <li className="transition-opacity">
-            <Link href="/blog" className="font-normal">
-              Adding a Dark Mode Toggle to Your React App
-            </Link>
-          </li>
-          <li className="transition-opacity">
-            <Link href="/blog" className="font-normal">
-              Blog Views with Server Actions
+            <Link href="/blog/crafting-customer-stories-with-ai" className="font-normal">
+            Crafting Customer Stories with ChatGPT, MidJourney, and Figma
             </Link>
           </li>
         </ul>

@@ -26,10 +26,10 @@ export default async function YouTube() {
         <div className="flex aspect-square h-8 w-8 items-center justify-center rounded-lg bg-[#FF0000]">
           <FaYoutube className="text-xl text-white" />
         </div>
-        <p className="text-secondary">@brianruizy</p>
+        <p className="text-secondary">@richardsimms2635</p>
         <Link
           className="mt-auto flex items-center gap-1.5 rounded-full bg-tertiary px-4 py-1.5 text-sm no-underline"
-          href="https://youtube.com/@Brianruizy?sub_confirmation=1"
+          href="https://youtube.com/@richardsimms2635?sub_confirmation=1"
         >
           <span className="font-medium text-primary">Subscribe</span>
           <span className="text-tertiary">

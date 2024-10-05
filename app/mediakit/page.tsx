@@ -7,6 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 
 import Link from "@/app/components/Link";
 
+
 export const metadata: Metadata = {
   title: "Mediakit | Richard Simms",
   description:
@@ -15,20 +16,27 @@ export const metadata: Metadata = {
 
 // get youtube subs count from route handler api/youtube
 async function getData() {
-  const res = await fetch(
-    `https://rsimms.com/api/youtube`,
-    {
-      next: {
-        revalidate: 86400, // 24 hours
+  try {
+    const res = await fetch(
+      `/api/youtube`, // Use a relative path for local API
+      {
+        next: {
+          revalidate: 86400, // 24 hours
+        },
       },
-    },
-  );
-  if (!res.ok) {
-    // This will activate the closest `error.js` Error Boundary
-    throw new Error("Failed to fetch data");
-  }
+    );
 
-  return res.json();
+    if (!res.ok) {
+      console.error(`Error fetching data: ${res.status} ${res.statusText}`);
+      throw new Error("Failed to fetch data");
+    }
+
+    return res.json();
+  } catch (error) {
+    console.error("An error occurred while fetching data:", error);
+    // Optionally, return a default value or handle the error in a way that doesn't break the app
+    return { subscribers: 0 }; // Example fallback value
+  }
 }
 
 export default async function Mediakit() {

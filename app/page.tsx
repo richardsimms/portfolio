@@ -6,6 +6,8 @@ import Link from "@/app/components/Link";
 import PostList from "@/app/blog/components/PostList";
 import ProjectList from "@/app/projects/components/ProjectList";
 
+
+
 export default function Home() {
   const blogs = allBlogs
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -58,11 +60,10 @@ export default function Home() {
           </Link>
         </div>
       </div>
-
       <div
         className="flex animate-in flex-col gap-8"
         style={{ "--index": 4 } as React.CSSProperties}
-      >
+      > 
         <p className="tracking-tight text-secondary">Pinned Projects</p>
         <ProjectList projects={projects} />
       </div>

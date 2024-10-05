@@ -27,7 +27,7 @@ export default function Project({ params }: { params: any }) {
             </p>
           </div>
           <div className="flex max-w-none items-center gap-4">
-            <Avatar src={Me} initials="br" size="sm" />
+            <Avatar src={Me} initials="RS" size="sm" />
             <div className="leading-tight">
               <p>Richard Simms</p>
               <p className="text-secondary">
